@@ -1,9 +1,9 @@
 ## About The Project
 
-CoinPaprika Api를 사용하여 간단한 코인 시세 확인 사이트 제작.\n
-react의 state와 components를 활용 연습용도\n
-Chart는 AperChart를 활용\n
-Dark MODE, White MODE 구현
+- CoinPaprika Api를 사용하여 간단한 코인 시세 확인 사이트 제작
+- react의 state와 components를 활용 연습용도
+- Chart는 AperChart를 활용
+- Dark MODE, White MODE
 
 ### Built With
 
@@ -12,11 +12,11 @@ Dark MODE, White MODE 구현
 
 ### Library
 
-- [![React Query][react.js]][reactquery-url]
-- [![React Router][react.js]][reactrouter-url]
-- [![styled-component][react.js]][styled-component-url]
-- [![recoil][react.js]][recoil-url]
-- [![ApexChart][react.js]][recoil-url]
+- [![React Query][reactquery.js]][reactquery-url]
+- [![React Router][reactrouter.js]][reactrouter-url]
+- [![styled-component][styled-component.js]][styled-component-url]
+- [![recoil][recoil.js]][recoil-url]
+- [![ApexChart][apexchart.js]][apexchart-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -35,6 +35,11 @@ Dark MODE, White MODE 구현
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [typescript]: https://img.shields.io/badge/-TypeScript-blue
+[reactquery.js]: https://img.shields.io/badge/-React%20Query-blue
+[reactrouter.js]: https://img.shields.io/badge/-react--router-blue
+[styled-component.js]: https://img.shields.io/badge/-styled--components-blue
+[recoil.js]: https://img.shields.io/badge/-Recoil-blue
+[apexchart.js]: https://img.shields.io/badge/-apexChart-yellowgreen
 [typescript-url]: https://www.typescriptlang.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
