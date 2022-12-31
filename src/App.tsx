@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import GlobalStyle from "./components/GlobalStyle";
+import Router from "./Router";
+//import { ReactQueryDevtools } from "react-query/devtools"; //쿼리 확인 가능
+import { ThemeProvider } from "styled-components";
+import { useRecoilValue } from "recoil";
+import { isDarkAtom } from "./components/atoms";
+import { lightThem, darkThem } from "./them";
 
+//fragment -> 유령 컴포넌트로서 다른 컴포넌트를 담는 가짜 컴포넌트 역할을 한다.
 function App() {
+  const isDark = useRecoilValue(isDarkAtom);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={isDark ? darkThem : lightThem}>
+        <GlobalStyle />
+        <Router />
+      </ThemeProvider>
+    </>
   );
 }
 
